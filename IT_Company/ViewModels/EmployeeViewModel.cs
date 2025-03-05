@@ -24,7 +24,7 @@ namespace IT_Company.ViewModels
             set
             {
                 employee.FirstName = value;
-                OnPropertyChanged(nameof(FirstName));
+                OnPropertyChanged(nameof(FirstName)); 
             }
         }
 
